@@ -1,0 +1,191 @@
+@import 'Name.scss';
+
+.containerTitulo {
+  width: 90%;
+  height: 5%;
+  margin-left: 8%;
+  display: flex;
+  flex-direction: row;
+  font-weight: 600;
+  font-size: 18px;
+  line-height: 25px;
+  font-family: Open-Sans;
+  color: rgba(88, 80, 107, 1);
+
+  .containerEstratega {
+    width: 20%;
+    height: 70%;
+    margin-left: 25%;
+    margin-top: 1%;
+    border: 1px solid #41cf69;
+    background-color: #e4ffee;
+    text-align: center;
+    border-radius: 10%;
+
+    .estratega {
+      font-weight: 600;
+      font-size: 10px;
+      line-height: 14px;
+      color: rgba(65, 207, 105, 1);
+    }
+  }
+}
+
+.containerPortafolio {
+  width: 90%;
+  height: 30%;
+  display: flex;
+  flex-direction: row;
+  margin-left: 5%;
+  border-radius: 10%;
+
+  .containerRobot {
+    width: 50%;
+    height: 80%;
+    display: flex;
+    flex-direction: column;
+
+    .robot {
+      width: 40px;
+      height: 40px;
+      margin-left: 16%;
+      margin-top: 12%;
+      z-index: 1;
+      position: absolute;
+    }
+
+    .pai {
+      width: 120px;
+      height: 120px;
+      margin-left: 5%;
+      margin-top: 5%;
+      position: absolute;
+    }
+
+    .containerInfo {
+      width: 40%;
+      height: 13%;
+      display: flex;
+      flex-direction: column;
+      z-index: 100;
+      margin-top: -63%;
+      margin-left: 30%;
+      font-family: Open-Sans;
+
+      .advisor {
+        font-size: 10px;
+        line-height: 14px;
+        color: rgba(129, 118, 153, 1);
+      }
+
+      .fondos {
+        font-size: 12px;
+        line-height: 16px;
+      }
+
+    }
+  }
+
+  .containerSkandia {
+    width: 50%;
+    height: 80%;
+    display: flex;
+    flex-direction: column;
+
+    .logoSkandia {
+      width: 100%;
+      height: 19%;
+      display: flex;
+      flex-direction: row;
+
+      .logo {
+        width: 70px;
+        height: 16px;
+        margin-top: 10%;
+        margin-left: 8%;
+      }
+
+      .porcentaje {
+        width: 22%;
+        height: 35%;
+        margin-top: 10%;
+        margin-left: 19%;
+        font-size: 10px;
+        font-family: Open-Sans;
+        color: white;
+        background-color: #41cf69;
+        border-radius: 36%;
+        text-align: center;
+      }
+    }
+
+    .containerInfoSkandia {
+      width: 100%;
+      height: 68%;
+      display: flex;
+      flex-direction: column;
+      margin-top: 2%;
+      font-family: Open-Sans;
+      color: rgba(88, 80, 107, 1);
+
+
+      .fic {
+        font-size: 12px;
+        line-height: 16px;
+      }
+
+      .valor {
+        font-weight: 600;
+        font-size: 12px;
+        line-height: 16px;
+        margin-top: -12%;
+      }
+
+    }
+
+    .tipo {
+      font-weight: 600;
+      font-size: 10px;
+      line-height: 14px;
+      color: rgba(65, 207, 105, 1);
+      margin-top: -11%;
+
+    }
+
+    .renta {
+      font-size: 10px;
+      line-height: 14px;
+      margin-top: -14%;
+    }
+
+    .deposito {
+      font-size: 10px;
+      line-height: 14px;
+      margin-top: 20%;
+      margin-top: -20%;
+    }
+  }
+}
+
+.infoDinero {
+  width: 80%;
+  height: 4%;
+  margin-left: 10%;
+  margin-top: -13%;
+  font-family: Open-Sans;
+  color: #58506b;
+  font-size: 9.8px;
+  line-height: 14px;
+  text-align: justify;
+}
+
+.icon {
+  width: 40%;
+  height: 3%;
+  margin-left: 50%;
+  margin-top: -19%;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  color: rgba(129, 118, 153, 1);
+}

@@ -1,0 +1,28 @@
+@font-face {
+  font-family:Open-Sans;
+  src: url(./OpenSans-Regular.ttf);
+}
+*{
+  margin:0px;
+  padding: 0%;
+  height:100%;
+  box-sizing: border-box;
+}
+
+.firstView{
+  width: 100%;
+  height: 10%;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  margin-top: 15%;
+  color: #54D1ED;
+  
+  .name{
+    font-family: Open-Sans;
+    font-size: 18px;
+    color: rgba(88, 80, 107, 1);
+  }
+
+}
+

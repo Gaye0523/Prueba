@@ -1,0 +1,60 @@
+@import 'Name.scss';
+
+.ahorroImg {
+  height: 28%;
+
+  .ahorro {
+    width: 90%;
+    height: 221px;
+    margin-left: 5%;
+    border-radius: 10%;
+  }
+
+  .fondo {
+    width: 90%;
+    height: 122px;
+    margin-top: -16%;
+    margin-left: 5%;
+    border-radius: 10%;
+  }
+
+}
+
+.ahorroInfo {
+  width: 90%;
+  height: 8%;
+  margin-left: 6%;
+  margin-top: -3%;
+  display: flex;
+  flex-direction: column;
+  font-family: Open-Sans;
+  color: white;
+
+  .ahorro {
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 33px;
+    margin-left: 6%;
+    margin-top: -5%;
+  }
+
+  .conoce {
+    font-size: 12px;
+    line-height: 16px;
+    letter-spacing: -0.03em;
+    text-align: justify;
+  }
+}
+
+
+.tituloAhorro {
+  width: 90%;
+  height: 4%;
+  margin-top: 21%;
+  margin-left: 5%;
+  font-weight: 600;
+  font-size: 18px;
+  line-height: 25px;
+  font-family: Open-Sans;
+  color: rgba(88, 80, 107, 1);
+}

@@ -1,0 +1,158 @@
+@import 'Name.scss';
+
+.containerConsejos {
+  width: 90%;
+  height: 27%;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  margin-top: 20%;
+  margin-left: 5%;
+
+  .img1 {
+    width: 68px;
+    height: 68px;
+    border-radius: 30%;
+  }
+}
+
+.containerInfo {
+  width: 90%;
+  height: 13%;
+  margin-left: 5%;
+  margin-top: -34%;
+  display: flex;
+  flex-direction: column;
+  color: rgba(88, 80, 107, 1);
+  font-family: Open-Sans;
+
+  .titulo {
+    font-size: 14px;
+    line-height: 21px;
+  }
+
+  .parrafo {
+    font-size: 10px;
+    line-height: 14px;
+    margin-top: -15%;
+  }
+}
+
+.containerIcon {
+  width: 30%;
+  height: 9%;
+  margin-left: 5%;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+
+
+  .containerHome {
+    display: flex;
+    flex-direction: column;
+
+    .svg-inline--fa {
+      width: 40px;
+      height: 40px;
+      color: rgba(84, 209, 237, 1);
+    }
+
+    .home {
+      font-size: 10px;
+      line-height: 14px;
+      font-family: Open-Sans;
+      color: rgba(84, 209, 237, 1);
+      text-align: center;
+    }
+  }
+
+  .containerHistorial {
+    display: flex;
+    flex-direction: column;
+
+    .svg-inline--fa {
+      width: 40px;
+      height: 40px;
+      color: rgba(88, 80, 107, 1);
+    }
+
+    .historial {
+      font-size: 10px;
+      line-height: 14px;
+      font-family: Open-Sans;
+      color: rgba(88, 80, 107, 1);
+      text-align: center;
+    }
+  }
+}
+
+.containerIcon1 {
+  width: 30%;
+  height: 9%;
+  margin-left: 65%;
+  margin-top: -19%;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.containPerfil {
+  display: flex;
+  flex-direction: column;
+
+  .svg-inline--fa {
+    width: 40px;
+    height: 40px;
+    color: rgba(88, 80, 107, 1);
+  }
+
+  .perfil {
+    font-size: 10px;
+    line-height: 14px;
+    font-family: Open-Sans;
+    color: rgba(88, 80, 107, 1);
+    text-align: center;
+  }
+}
+
+.containerMore {
+  display: flex;
+  flex-direction: column;
+
+  .svg-inline--fa {
+    width: 40px;
+    height: 40px;
+    color: rgba(88, 80, 107, 1);
+  }
+
+  .more {
+    font-size: 10px;
+    line-height: 14px;
+    font-family: Open-Sans;
+    color: rgba(88, 80, 107, 1);
+    text-align: center;
+  }
+}
+
+.containerAhorrar {
+  width: 30%;
+  height: 10%;
+  display: flex;
+  flex-direction: column;
+  margin-left: 35%;
+  margin-top: -30%;
+  align-items: center;
+
+  .svg-inline--fa {
+    width: 50px;
+    height: 50px;
+    color: rgba(84, 209, 237, 1);
+  }
+
+  .ahorrar {
+    font-size: 10px;
+    line-height: 14px;
+    font-family: Open-Sans;
+    color: #A99DC6;
+  }
+}

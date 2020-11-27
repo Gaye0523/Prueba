@@ -1,0 +1,85 @@
+@import 'Name.scss';
+
+.firstContent {
+  width: 90%;
+  height: 33%;
+  margin-left: 5%;
+  border-radius: 10%;
+  background-color: #54D1ED;
+
+  .Img1 {
+    width: 50%;
+    height: 65%;
+    margin-left: 44%;
+    margin-top: -13%
+  }
+
+  .info1 {
+    width: 31%;
+    height: 20%;
+    margin-top: -29%;
+    margin-left: 8%;
+    display: flex;
+    flex-direction: column;
+    color: white;
+    font-weight: 600;
+    font-family: Open-Sans;
+    font-size: 18px;
+  }
+
+  .info2 {
+    width: 58%;
+    height: 30%;
+    margin-top: 22%;
+    margin-left: 9%;
+    display: flex;
+    flex-direction: column;
+    font-family: Open-Sans;
+    font-weight: 600;
+    font-size: 36px;
+    line-height: 49px;
+    color: white;
+  }
+
+  .saldo {
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 21px;
+  }
+
+}
+
+.summaryHome {
+  width: 90%;
+  height: 16%;
+  border-radius: 10%;
+  background-color: rgba(255, 255, 255, 1);
+  margin-top: 10%;
+  margin-left: 5%;
+
+  .infoInvertion {
+    width: 100%;
+    height: 20%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    font-family: Open-Sans;
+    margin-top: 10%;
+    font-size: 18px;
+    line-height: 21px;
+    color: rgba(88, 80, 107, 1);
+  }
+
+  .infoInvertion1 {
+    width: 100%;
+    height: 20%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    font-family: Open-Sans;
+    margin-top: 6%;
+    font-size: 18px;
+    line-height: 21px;
+    color: rgba(88, 80, 107, 1);
+  }
+}
