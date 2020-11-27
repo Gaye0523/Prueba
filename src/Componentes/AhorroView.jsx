@@ -1,5 +1,6 @@
 import React, { Fragment } from 'react';
-
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
+import { faEllipsisH } from '@fortawesome/free-solid-svg-icons';
 
 
 export const AhorroImg = () => {
@@ -12,9 +13,9 @@ export const AhorroImg = () => {
       <div className="ahorroInfo">
         <spam className="ahorro">Esto es AHORRO</spam>
         <spam className="conoce">Conoce como nuestro RoboAdvisor crea el mejor portafolio de inversión para ti.</spam>
+        <FontAwesomeIcon icon={faEllipsisH} />
       </div>
     </Fragment>
-
   );
 };
 
